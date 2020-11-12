@@ -3,3 +3,7 @@
 	width: 18rem;
 	padding: 1rem;
 }
+
+ul {
+  list-style-position: inside;
+}
