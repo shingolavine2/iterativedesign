@@ -7,3 +7,8 @@
 ul {
   list-style-position: inside;
 }
+
+.divider {
+	border-top: 3px dashed #bbb;
+	margin: 1rem;
+}
