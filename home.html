@@ -1,139 +1,261 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
     <title>Iterative Design</title>
     <link rel="stylesheet" href="index.css">
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous">
   </head>
 
-  <body>
+  <body class="m-2">
     <!-- TODO: put your HTML code here! -->
-    	<div class="container">
-    	<h1 class="text-center">Iterative Design</h1>
-    		<div class="row">
-    			 <!-- TODO: put part 0 - context and background -->
-					 <h2>Background</h2>
-					 <p>For this assignment, we created a brand-new interface for the Thrive Education startup (now known as <a href="https://www.hellopolygon.com/">Polygon</a>). Thrive Education offers tele-assessments for identifying learning and developmental differences.</p>
-					 <p>We started by narrowing down this startup's focus. Our goal was to target motivated, self-driven students primarily in college. These students aren't satisfied with how they're currently doing. They want to see if there's a reason behind this.</p>
-					 <p>Students start with a short self-assessment. Then, they get directed to schedule a tele-assessment with the startup's staff. They can also skip directly to scheduling a tele-assessment if they know they have a learning disability.</p>
-    		</div>
-    		<div class="row flex-column">
-    			<!-- TODO: put part 1 - sketches, lo-fi mockups -->
-					<h2 class="text-center">Sketches</h2>
-					<p>Before designing, we did some sketches, each with one of the following things in mind:</p>
-					<ul>
-						<li>Schedule an Assessment Page &#x2192; Get Assessed &#x2192; Report Page (Targeted at a student)</li>
-						<li>Home Page “learn more” &#x2192; Testimonies (parents) &#x2192; Schedule an Assessment (Targeted at a parent)</li>
-						<li>Home Page &#x2192; Benefits to Schools Page &#x2192; Schedule a Demo (Targeted at a School)</li>
-						<li>Home &#x2192; initial questions in “Self-Assessment” &#x2192; have user fill out personal info &#x2192; email</li>
-					</ul>
-					<figure class="col-12 col-md-4 col-lg-3 figure">
-						<img src="images/sketch1.jpg" class="figure-img img-fluid" alt="sketch 1 targeted at a student">
-						<figcaption class="figure-caption">Schedule an Assessment Page &#x2192; Get Assessed &#x2192; Report Page (Targeted at a student)</figcaption>
-					</figure>
-					<figure class="col-12 col-md-4 col-lg-3 figure">
-						<img src="images/sketch2.jpg" class="figure-img img-fluid" alt="sketch 2 targeted at a school">
-						<figcaption class="figure-caption">Home Page &#x2192; Benefits to Schools Page &#x2192; Schedule a Demo (Targeted at a school)</figcaption>
-					</figure>
-					<figure class="col-12 col-md-4 col-lg-3 figure">
-						<img src="images/sketch3.jpg" class="figure-img img-fluid" alt="sketch 3 targeted at a parent">
-						<figcaption class="figure-caption">Home Page “learn more” &#x2192; Testimonies (parents) &#x2192; Schedule an Assessment (Targeted at a parent)</figcaption>
-					</figure>
-					<figure class="col-12 col-md-4 col-lg-3 figure">
-						<img src="images/sketch4.jpg" class="figure-img img-fluid" alt="sketch 4 also targeted at a student">
-						<figcaption class="figure-caption">Home &#x2192; initial questions in “Self-Assessment” &#x2192; have user fill out personal info &#x2192; email (Also targeted at a student)</figcaption>
-					</figure>
-					<h2 class="text-center">Wireframe</h2>
-					<p>From here, we created a wireframe combining all of these ideas.</p>
-					
-    		</div>
-    		<div class="row">
-    			<div class="col-md-2">
-    			</div>
-    			<div class="col-md-8">
-    				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZKZYIC6NE66ZvN9uEEvpgy%2FThrive-Education-Iterative-Design-Project-Lo-Fi%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
-    			</div>
-    			<div class="col-md-2">
-    			</div>
-    		</div>
-    		<div class="row">
-				<h2 class="text-center">Mockup Crit</h2>
-				<p>During the studio mockup crit, we got the following feedback:</p>
-				<ul>
-					<li>If your goal is onboarding, think about how to achieve your desired metrics</li>
-					<li>To help readability, use icons to your advantage and create a clear text hierarchy</li>
-					<li>Perhaps focus on one persona to create a more focused interface</li>
-					<li>Think about what a successful outcome would be from using your interface</li>
-				</ul>
-				<p>We incorporated the feedback by focusing on a college student persona, adding icons to help with readability, and removing the "schools" and "parents" user flows:</p>
-				<div class="col-md-4">
-    			</div>
-    			<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="450" height="800" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ZJRxOUAF1PypLDe4yOk9q%2FThrive-Education-Iterative-Design-Project-Hi-Fi%3Fnode-id%3D1%253A94%26scaling%3Dmin-zoom" allowfullscreen></iframe>
-    			</div>
-      			<div class="col-md-4">
-    			</div>
-    		<div class="row"><br><br></div>
-
-    		<h1 class="text-center">User Feedback Videos</h1>
-    		<div class="row">
-    			<div class="col-md-4">
-					<h5 class="card-title">User Feedback 1</h5>
-					<iframe src="https://www.youtube.com/embed/iltlWJLrv_k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-4">
-			    	<h5 class="card-title">User Feedback 2</h5>
-			    	<iframe src="https://www.youtube.com/embed/Sw4mqUcd2U0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-				<div class="col-md-4">
-					<h5 class="card-title">User Feedback 3</h5>
-					<iframe src="https://www.youtube.com/embed/wFLXNn1Ohjg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-    		</div>
-
-    		<div class="row"><br><br></div>
-
-    		<h1 class="text-center">User Feedback and Analysis</h1>
-    		<div class="row">
-    			<div class="col-md-3 div-padding">
-	    			<div class="card card-padding">
-					  <div class="card-body">
-					    <h5 class="card-title">Assigned Task</h5>
-					    <p class="card-text">The task we gave was for users to assess what offerings were available on the homepage and the site in general and for them to assess whether or not they would drop out of the assessment once they started. We wanted to assess how people would interpret and interact with the information on the page and if they would make any errors in interacting with the application.</p>
-					  </div>
-					</div>
-				</div>
-				<div class="col-md-3">
-	    			<div class="card card-padding">
-					  <div class="card-body">
-					    <h5 class="card-title">Task Interaction</h5>
-					    <p class="card-text">In general, the users completed the tasks correctly and were not confused. When the users put themselves in the shoes of someone with a learning disability, they did, however, note that a user with learning disabilities may get confused by whether or not the service applied to them since it wasn’t clear from the homepage. Interactions with the application itself, however, were in line with what we expected.</p>
-					  </div>
-					</div>
-				</div>
-				<div class="col-md-3">
-	    			<div class="card card-padding">
-					  <div class="card-body">
-					    <h5 class="card-title">User Feedback and Changes</h5>
-					    <p class="card-text">User feedback was mostly in line with what we expected, however, one user noted that if someone had a learning disability or suspected that they did, it may be hard for that person to self-identify with the information on the homepage which may lead them to not get into the self-assessment and subsequently the tele-assessment. Another user noted that once they get into the tele-assessment, the user would likely self-identify and likely wouldn’t drop out of the application, however, it seems that the initial resistance for the user to enter into the self-assessment would be the biggest hurdle. </p>
-					  </div>
-					</div>
-				</div>
-				<div class="col-md-3">
-	    			<div class="card card-padding">
-					  <div class="card-body">
-					    <h5 class="card-title">Changes</h5>
-					    <p class="card-text">If some changes were to be made to the site, we would add more information to the home page to help users with learning disabilities self-identify and make it easier for them to enter into the self-assessment. </p>
-					  </div>
-					</div>
-				</div>
-			</div>
-			<div class="row flex-column">
-				<h2>Contacting the Startup</h2>
-				<p>We sent an email to Polygon highlighting our goals with this design project and inviting them to check out our prototype!</p>
-			</div>
-    	</div>
+    <h1 class="text-center">Iterative Design</h1>
+    <!-- TODO: put part 0 - context and background -->
+    <h2 class="text-center mt-5">Background</h2>
+    <p>
+      For this assignment, we created a brand-new interface for the Thrive
+      Education startup (now known as
+      <a href="https://www.hellopolygon.com/">Polygon</a>). Thrive Education
+      offers tele-assessments for identifying learning and developmental
+      differences.
+    </p>
+    <p>
+      We started by narrowing down this startup's focus. Our goal was to target
+      motivated, self-driven students primarily in college. These students
+      aren't satisfied with how they're currently doing. They want to see if
+      there's a reason behind this.
+    </p>
+    <p>
+      Students start with a short self-assessment. Then, they get directed to
+      schedule a tele-assessment with the startup's staff. They can also skip
+      directly to scheduling a tele-assessment if they know they have a learning
+      disability.
+    </p>
+    <!-- TODO: put part 1 - sketches, lo-fi mockups -->
+    <h2 class="text-center">Sketches</h2>
+    <p>
+      Before designing, we did some sketches, each with one of the following
+      things in mind:
+    </p>
+    <ul>
+      <li>
+        Schedule an Assessment Page &#x2192; Get Assessed &#x2192; Report Page
+        (Targeted at a student)
+      </li>
+      <li>
+        Home Page “learn more” &#x2192; Testimonies (parents) &#x2192; Schedule
+        an Assessment (Targeted at a parent)
+      </li>
+      <li>
+        Home Page &#x2192; Benefits to Schools Page &#x2192; Schedule a Demo
+        (Targeted at a School)
+      </li>
+      <li>
+        Home &#x2192; initial questions in “Self-Assessment” &#x2192; have user
+        fill out personal info &#x2192; email
+      </li>
+    </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <figure class="col-12 col-md-4 col-lg-3 figure">
+          <img
+            src="images/sketch1.jpg"
+            class="figure-img img-fluid"
+            alt="sketch 1 targeted at a student"
+          >
+          <figcaption class="figure-caption">
+            Schedule an Assessment Page &#x2192; Get Assessed &#x2192; Report
+            Page (Targeted at a student)
+          </figcaption>
+        </figure>
+        <figure class="col-12 col-md-4 col-lg-3 figure">
+          <img
+            src="images/sketch2.jpg"
+            class="figure-img img-fluid"
+            alt="sketch 2 targeted at a school"
+          >
+          <figcaption class="figure-caption">
+            Home Page &#x2192; Benefits to Schools Page &#x2192; Schedule a Demo
+            (Targeted at a school)
+          </figcaption>
+        </figure>
+        <figure class="col-12 col-md-4 col-lg-3 figure">
+          <img
+            src="images/sketch3.jpg"
+            class="figure-img img-fluid"
+            alt="sketch 3 targeted at a parent"
+          >
+          <figcaption class="figure-caption">
+            Home Page “learn more” &#x2192; Testimonies (parents) &#x2192;
+            Schedule an Assessment (Targeted at a parent)
+          </figcaption>
+        </figure>
+        <figure class="col-12 col-md-4 col-lg-3 figure">
+          <img
+            src="images/sketch4.jpg"
+            class="figure-img img-fluid"
+            alt="sketch 4 also targeted at a student"
+          >
+          <figcaption class="figure-caption">
+            Home &#x2192; initial questions in “Self-Assessment” &#x2192; have
+            user fill out personal info &#x2192; email (Also targeted at a
+            student)
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <h2 class="text-center mt-4">Wireframe</h2>
+    <p>From here, we created a wireframe combining all of these ideas.</p>
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1)"
+      width="800"
+      height="450"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZKZYIC6NE66ZvN9uEEvpgy%2FThrive-Education-Iterative-Design-Project-Lo-Fi%3Fnode-id%3D0%253A1"
+      allowfullscreen
+			class="d-block mx-auto"
+    ></iframe>
+    <!-- 8 columns -->
+    <h2 class="text-center mt-4">Mockup Crit</h2>
+    <p>During the studio mockup crit, we got the following feedback:</p>
+    <ul>
+      <li>
+        If your goal is onboarding, think about how to achieve your desired
+        metrics
+      </li>
+      <li>
+        To help readability, use icons to your advantage and create a clear text
+        hierarchy
+      </li>
+      <li>Perhaps focus on one persona to create a more focused interface</li>
+      <li>
+        Think about what a successful outcome would be from using your interface
+      </li>
+    </ul>
+    <p>
+      We incorporated the feedback by focusing on a college student persona,
+      adding icons to help with readability, and removing the "schools" and
+      "parents" user flows:
+    </p>
+    <iframe
+      style="border: 1px solid rgba(0, 0, 0, 0.1)"
+      width="450"
+      height="800"
+      src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7ZJRxOUAF1PypLDe4yOk9q%2FThrive-Education-Iterative-Design-Project-Hi-Fi%3Fnode-id%3D1%253A94%26scaling%3Dmin-zoom"
+      allowfullscreen
+			class="d-block mx-auto"
+    ></iframe>
+    <h2 class="text-center mt-4 mb-3">User Feedback Videos</h2>
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4 embed-responsive embed-responsive-21by9">
+          <h5 class="card-title">User Feedback 1</h5>
+          <iframe
+            src="https://www.youtube.com/embed/iltlWJLrv_k"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+						class="embed-responsive-item"
+          ></iframe>
+        </div>
+        <div class="col-md-4 embed-responsive embed-responsive-21by9">
+          <h5 class="card-title">User Feedback 2</h5>
+          <iframe
+            src="https://www.youtube.com/embed/Sw4mqUcd2U0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+						class="embed-responsive-item"
+          ></iframe>
+        </div>
+        <div class="col-md-4 embed-responsive embed-responsive-21by9">
+          <h5 class="card-title">User Feedback 3</h5>
+          <iframe
+            src="https://www.youtube.com/embed/wFLXNn1Ohjg"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+						class="embed-responsive-item"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <h2 class="text-center mt-4">User Feedback and Analysis</h2>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 div-padding">
+          <div class="card card-padding">
+            <div class="card-body">
+              <h5 class="card-title">Assigned Task</h5>
+              <p class="card-text">
+                The task we gave was for users to assess what offerings were
+                available on the homepage and the site in general and for them
+                to assess whether or not they would drop out of the assessment
+                once they started. We wanted to assess how people would
+                interpret and interact with the information on the page and if
+                they would make any errors in interacting with the application.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-padding">
+            <div class="card-body">
+              <h5 class="card-title">Task Interaction</h5>
+              <p class="card-text">
+                In general, the users completed the tasks correctly and were not
+                confused. When the users put themselves in the shoes of someone
+                with a learning disability, they did, however, note that a user
+                with learning disabilities may get confused by whether or not
+                the service applied to them since it wasn’t clear from the
+                homepage. Interactions with the application itself, however,
+                were in line with what we expected.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-padding">
+            <div class="card-body">
+              <h5 class="card-title">User Feedback and Changes</h5>
+              <p class="card-text">
+                User feedback was mostly in line with what we expected, however,
+                one user noted that if someone had a learning disability or
+                suspected that they did, it may be hard for that person to
+                self-identify with the information on the homepage which may
+                lead them to not get into the self-assessment and subsequently
+                the tele-assessment. Another user noted that once they get into
+                the tele-assessment, the user would likely self-identify and
+                likely wouldn’t drop out of the application, however, it seems
+                that the initial resistance for the user to enter into the
+                self-assessment would be the biggest hurdle.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-padding">
+            <div class="card-body">
+              <h5 class="card-title">Changes</h5>
+              <p class="card-text">
+                If some changes were to be made to the site, we would add more
+                information to the home page to help users with learning
+                disabilities self-identify and make it easier for them to enter
+                into the self-assessment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-center mt-4">Contacting the Startup</h2>
+      <p>
+        We sent an email to Polygon highlighting our goals with this design
+        project and inviting them to check out our prototype!
+      </p>
+    </div>
   </body>
 </html>
