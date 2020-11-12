@@ -1,4 +1,9 @@
 /* Put your style information here! */
+
+body {
+  padding: 2rem 4rem;
+}
+
 .card-padding {
 	width: 18rem;
 	padding: 1rem;
@@ -9,6 +14,18 @@ ul {
 }
 
 .divider {
-	border-top: 3px dashed #bbb;
-	margin: 1rem;
+	border-top: 2px dashed #6122b4;
+	margin: 1.5rem auto;
+  width: 90vw;
+}
+
+h1,
+h2 {
+  color: #057676;
+}
+
+.card-body {
+  background: #057676;
+  color: white;
+  border-radius: 5px;
 }
