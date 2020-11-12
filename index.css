@@ -1,1 +1,5 @@
 /* Put your style information here! */
+.card-padding {
+	width: 18rem;
+	padding: 1rem;
+}
