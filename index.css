@@ -9,10 +9,6 @@ body {
 	padding: 1rem;
 }
 
-ul {
-  list-style-position: inside;
-}
-
 .divider {
 	border-top: 2px dashed #6122b4;
 	margin: 1.5rem auto;
